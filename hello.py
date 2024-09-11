@@ -3,6 +3,7 @@ greeting = "Hello,"
 print(greeting + " " + name)
 
 
+
 food = input("Whats your favorite food? ")
 if food == "Pizza":
     print ("I like pizza too. ")
@@ -47,23 +48,25 @@ if reply == "kpop":
 
 
 reply2 = input ("Changing topics again, what games do you play? ")
-if reply2 == "Minecraft":
+if reply == "Minecraft":
     print ("Pretty basic answer, good game though")
-if reply2 == "minecraft":
+elif reply2 == "minecraft":
     print ("Pretty basic answer, good game though")
     
-if reply2 == "Fortnite":
+elif reply2 == "Fortnite":
     print ("In the big 2024? Wild.")
-if reply2 == "fortnite":
+elif reply2 == "fortnite":
     print ("In the big 2024? Wild.")
     
-if reply2 == "Rdr2":
+elif reply2 == "Rdr2":
     print ("Based")
-if reply2 == "rdr2":
+elif reply2 == "rdr2":
     print ("Based")
 
-if reply2 == "Call Of Duty":
+elif reply2 == "Call Of Duty":
     print ("Pls go outside")
-if reply2 == "call of duty":
+elif reply2 == "call of duty":
     print ("Pls go outside")
-
+    
+    
+print ("Sorry, I can't talk anymore. Talk later?")
